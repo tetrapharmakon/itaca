@@ -2,7 +2,7 @@
 title: ItaCa
 ---
 
-<img src="/images/banner.jpg" style="width: 100%;" />
+<img src="/assets/images/banner.jpg" style="width: 100%;" />
 
 <p style="text-align:right">
 Kатегории! По всем отраслям знаний!<br>

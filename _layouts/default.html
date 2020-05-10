@@ -4,8 +4,8 @@
 		<meta charset="utf-8" />
 		<meta http-equiv="x-ua-compatible" content="ie=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>$title$</title>
-		<link rel="stylesheet" href="../css/csstyle.css" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/main.css" />
 	</head>
 	<body>
 		<header>
@@ -43,12 +43,12 @@
 		</header>
 
 		<main role="main">
-			$body$
+			{{ content }}
 		</main>
 
 		<footer>
-			This site is powered by
-			<a href="http://jaspervdj.be/hakyll">monads</a>.
+			<!-- This site is powered by
+			<a href="http://jaspervdj.be/hakyll">monads</a>. -->
 		</footer>
 	</body>
 </html>
